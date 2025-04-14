@@ -511,6 +511,42 @@ RobotArm:
       x-ngsi:
         model: https://schema.org/Text
         type: Property
+    targetPositionA:
+      description: Target/intended a (rotation around z axis) coordinate of the robot final position
+      type: number
+      x-ngsi:
+        model: https://schema.org/Text
+        type: Property
+    targetPositionB:
+      description: Target/intended b (rotation around y axis) coordinate of the robot final position
+      type: number
+      x-ngsi:
+        model: https://schema.org/Text
+        type: Property
+    targetPositionC:
+      description: Target/intended c (rotation around x axis) coordinate of the robot final position
+      type: number
+      x-ngsi:
+        model: https://schema.org/Text
+        type: Property
+    targetPositionX:
+      description: Target/intended x coordinate of the robot final position
+      type: number
+      x-ngsi:
+        model: https://schema.org/Text
+        type: Property
+    targetPositionY:
+      description: Target/intended y coordinate of the robot final position
+      type: number
+      x-ngsi:
+        model: https://schema.org/Text
+        type: Property
+    targetpositionZ:
+      description: Target/intended z coordinate of the robot position
+      type: number
+      x-ngsi:
+        model: https://schema.org/Text
+        type: Property
     proState0:
       description: Status of the Robot PLC
       enum:
@@ -669,6 +705,78 @@ RobotArm:
         type: Property
     velocityAxis6:
       description: Actual Velocity of the sixth axis of the robot arm
+      type: number
+      x-ngsi:
+        model: https://schema.org/Number
+        type: Property
+    measuredCurrentAxis1:
+      description: Actual current consumption of the first axis of the robot arm
+      type: number
+      x-ngsi:
+        model: https://schema.org/Number
+        type: Property
+    measuredCurrentAxis2:
+      description: Actual current consumption of the second axis of the robot arm
+      type: number
+      x-ngsi:
+        model: https://schema.org/Number
+        type: Property
+    measuredCurrentAxis3:
+      description: Actual current consumption of the third axis of the robot arm
+      type: number
+      x-ngsi:
+        model: https://schema.org/Number
+        type: Property
+    measuredCurrentAxis4:
+      description: Actual current consumption of the fourth axis of the robot arm
+      type: number
+      x-ngsi:
+        model: https://schema.org/Number
+        type: Property
+    measuredCurrentAxis5:
+      description: Actual current consumption of the fifth axis of the robot arm
+      type: number
+      x-ngsi:
+        model: https://schema.org/Number
+        type: Property
+    measuredCurrentAxis6:
+      description: Actual current consumption of the sixth axis of the robot arm
+      type: number
+      x-ngsi:
+        model: https://schema.org/Number
+        type: Property
+    estimatedCurrentAxis1:
+      description: Estimated current consumption of the first axis of the robot arm
+      type: number
+      x-ngsi:
+        model: https://schema.org/Number
+        type: Property
+    estimatedCurrentAxis2:
+      description: Estimated current consumption of the second axis of the robot arm
+      type: number
+      x-ngsi:
+        model: https://schema.org/Number
+        type: Property
+    estimatedCurrentAxis3:
+      description: Estimated current consumption of the third axis of the robot arm
+      type: number
+      x-ngsi:
+        model: https://schema.org/Number
+        type: Property
+    estimatedCurrentAxis4:
+      description: Estimated current consumption of the fourth axis of the robot arm
+      type: number
+      x-ngsi:
+        model: https://schema.org/Number
+        type: Property
+    estimatedCurrentAxis5:
+      description: Estimated current consumption of the fifth axis of the robot arm
+      type: number
+      x-ngsi:
+        model: https://schema.org/Number
+        type: Property
+    measuredCurrentAxis6:
+      description: Estimated current consumption of the sixth axis of the robot arm
       type: number
       x-ngsi:
         model: https://schema.org/Number
