@@ -58,27 +58,27 @@
         "value": 15
       },
       "targetPositionX": {
-        "type": "Number",
+        "type": "Property",
         "value": 45
       },
       "targetPositionY": {
-        "type": "Number",
+        "type": "Property",
         "value": 100
       },
       "targetPositionZ": {
-        "type": "Number",
+        "type": "Property",
         "value": 200
       },
       "targetPositionA": {
-        "type": "Number",
+        "type": "Property",
         "value": 20
       },
       "targetPositionB": {
-        "type": "Number",
+        "type": "Property",
         "value": 10
       },
       "targetPositionC": {
-        "type": "Number",
+        "type": "Property",
         "value": 15
       },
       "toolX": {
@@ -250,51 +250,51 @@
         "value": 100
       },
       "measuredCurrentAxis1": {
-        "type": "Number",
+        "type": "Property",
         "value": 0.10
       },
       "measuredCurrentAxis2": {
-        "type": "Number",
+        "type": "Property",
         "value": 0.20
       },
       "measuredCurrentAxis3": {
-        "type": "Number",
+        "type": "Property",
         "value": 0.30
       },
       "measuredCurrentAxis4": {
-        "type": "Number",
+        "type": "Property",
         "value": 0.40
       },
       "measuredCurrentAxis5": {
-        "type": "Number",
+        "type": "Property",
         "value": 0.50
       },
       "measuredCurrentAxis6": {
-        "type": "Number",
+        "type": "Property",
         "value": 0.60
       },
       "estimatedCurrentAxis1": {
-        "type": "Number",
+        "type": "Property",
         "value": 0.10
       },
       "estimatedCurrentAxis2": {
-        "type": "Number",
+        "type": "Property",
         "value": 0.20
       },
       "estimatedCurrentAxis3": {
-        "type": "Number",
+        "type": "Property",
         "value": 0.30
       },
       "estimatedCurrentAxis4": {
-        "type": "Number",
+        "type": "Property",
         "value": 0.40
       },
       "estimatedCurrentAxis5": {
-        "type": "Number",
+        "type": "Property",
         "value": 0.50
       },
       "estimatedCurrentAxis6": {
-        "type": "Number",
+        "type": "Property",
         "value": 0.60
       },
     "@context": [
